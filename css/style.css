@@ -1,0 +1,135 @@
+:root
+{
+    --main_color:rgba(214, 46, 51 , 0.6);
+}
+#home ,#duration
+{
+    background-position: center center;
+    background-size: 100% 100%;
+}
+#home
+{
+    background-image: url(../images/events-heavenly-header.jpg);
+}
+#duration
+{
+    background-image: url(../images/invitation-2508607__340.jpg);
+}
+.layer
+{
+    background-color: var(--main_color);
+}
+h1
+{
+    font-size: 4rem;
+}
+.burgerBtn .item
+{
+    background-color: white;
+    width: 22px;
+    height: 3px;
+    margin: 6px;
+}
+.openSlide
+{
+    cursor: pointer;
+}
+.openSlide p
+{
+    font-size: 2rem;
+}
+.slide
+{
+    background-color: #414658;
+    width: 250px;
+}
+.slide a
+{
+    font-size: 1.6rem;
+    padding: 10px;
+    margin: 10px;
+}
+.slide i
+{
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 30px;
+}
+.slide a, .slide i
+{
+    color: white;
+    transition: color 0.1s;
+}
+.slide a:hover, .slide i:hover
+{
+    color: var(--main_color);
+}
+
+
+
+#details button
+{
+    background-color: var(--main_color);
+    font-size: 1.5rem;
+}
+#details p
+{
+    background-color: #ccc;
+    display: none;
+}
+
+
+#duration p
+{
+    font-size: 1.5rem;
+}
+#eventStart
+{
+    font-size: 4rem !important;
+}
+
+
+
+
+h3
+{
+    font-size: 2rem;
+}
+h4
+{
+    font-size: 1.2rem;
+}
+#contact .member
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #6c757d;
+}
+#contact .member:hover
+{
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+#contact .member:hover i
+{
+    color: white !important;
+}
+#num
+{
+    font-size: 1.5rem;
+}
+form input,form textarea
+{
+    border-radius: 0 !important;
+}
+::placeholder
+{
+    color: #a5a6a7 !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+#contact button{
+    background-color:#D62E33;
+    color:white;
+    width: auto;
+}
